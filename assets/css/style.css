@@ -127,7 +127,6 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -215,3 +214,5 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
