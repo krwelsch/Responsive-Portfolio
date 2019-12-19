@@ -219,7 +219,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 .main-section {
-    width: 60%;
+    width: 65%;
     margin: 5%;
     margin-top: 10px;
     padding: 15px;
@@ -284,29 +284,30 @@ input[type=submit] {
 
   /* portfolio.html */
   
-  .work img {
-    width: 75%;
-    margin-right: 0;
-    border: 0 none;
-    opacity: 0.8;
-    position: relative;
-    float: left;
-  }
   
+
+  .work {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40%;
+    margin-top: 5px;
+  }
+
   .work h3 {
     position: absolute;
     bottom: 20px;
-    padding: 15px;
+    width: 100%;
+    padding: 10px;
     margin-bottom: 0;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 30px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-    width: 75%;
   }
+
 
    /* contact.html */
 
@@ -383,31 +384,27 @@ input[type=submit] {
     }
   
     /* portfolio.html */
-    
-    .work img {
-      width: 75%;
-      margin-left: 35px;
-      margin-right: 0;
-      border: 0 none;
-      opacity: 0.8;
-      position: relative;
-      float: left;
+
+    .work {
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 40%;
+      margin-top: 5px;
     }
-    
+  
     .work h3 {
       position: absolute;
       bottom: 20px;
-      padding: 15px;
+      width: 100%;
+      padding: 10px;
       margin-bottom: 0;
-      margin-left: 35px;
       font-weight: 300;
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 18px;
+      line-height: 30px;
       color: #ffffff;
       text-align: center;
       background: #4aaaa5;
       border-bottom: 0;
-      width: 75%;
     }
   
      /* contact.html */
@@ -417,3 +414,78 @@ input[type=submit] {
      }
 }
 
+/* 640px */
+
+@media screen and (max-width: 640px) {
+  .main-section {
+      width: 90%;
+      margin: 5%;
+      margin-top: 10px;
+      padding: 15px;
+    }
+
+    #logo {
+      width: 100%;
+    }
+
+    .container {
+      max-width: none;
+    }
+  
+   
+    
+    h1 {
+      padding-bottom: 20px;
+      font-size: 24px;
+      line-height: 24px;
+      margin: 10px;
+    }
+  
+  
+    header {
+      padding-right: 20px;
+    }
+  
+    nav a {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  
+    footer {
+      padding-top: 20px;
+      max-width: 100%;
+      line-height: 24px;
+    }
+  
+    /* index.html */
+    
+    .auth-image {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    p{
+      font-size: 12px;
+      line-height: 12px;
+    }
+  
+    /* portfolio.html */
+  
+    
+    .work:nth-child(even){
+      margin-right: 20px;
+    }
+
+    .work {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: calc(100% - 40px);
+    }
+
+  
+     /* contact.html */
+  
+     ul {
+       margin-right: 3%;
+     }
+}
