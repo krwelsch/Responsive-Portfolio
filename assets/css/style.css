@@ -426,13 +426,25 @@ input[type=submit] {
 
     #logo {
       width: 100%;
+      margin: 0;
+      height: 50px;
+      line-height: 50px;
+    }
+
+    #masthead {
+      height: 100px;
     }
 
     .container {
       max-width: none;
+    
     }
   
-   
+    nav {
+      margin-right: 32%;
+      line-height: 0px;
+    
+    }
     
     h1 {
       padding-bottom: 20px;
